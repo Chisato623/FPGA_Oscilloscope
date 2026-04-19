@@ -1,0 +1,7 @@
+*
+!*/
+!*.v
+!*.vh
+!*.sv
+!*.svh
+!.gitignore
