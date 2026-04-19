@@ -4,4 +4,5 @@
 !*.vh
 !*.sv
 !*.svh
+!README.md
 !.gitignore
