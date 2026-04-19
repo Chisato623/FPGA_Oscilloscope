@@ -1,0 +1,275 @@
+           
+           Efinix FPGA Placement and Routing.
+           Version: 2024.2.294.1.19 
+           Compiled: Nov 14 2024.
+           
+           Copyright (C) 2013 - 2024 Efinix, Inc. All rights reserved.
+
+           
+           The Tool Is Based on VPR of University of Toronto,
+           a free open source code under MIT license.
+           
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully Read in Verific binary Netlist dump file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.vdb".
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+WARNING  : F:\usefullMaterial\new\Ti60\09_Ti60F225_HDMI_720P_ADCWord_NewVerison\src\wave_display.v(4): Input/inout port clk27m is unconnected and will be removed. [VDB-8003]
+WARNING  : F:\usefullMaterial\new\Ti60\09_Ti60F225_HDMI_720P_ADCWord_NewVerison\src\wave_display.v(13): Input/inout port sys_pll_LOCKED is unconnected and will be removed. [VDB-8003]
+INFO     : Found 2 warnings in the post-synthesis netlist.
+INFO     : VDB Netlist Checker took 0.025231 seconds.
+INFO     : 	VDB Netlist Checker took 0.046875 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 116.884 MB, end = 117.308 MB, delta = 0.424 MB
+INFO     : 	VDB Netlist Checker peak virtual memory usage = 117.316 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 92.36 MB, end = 93.216 MB, delta = 0.856 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 93.22 MB
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Creating interface clock pin clk_pixel_5x.
+INFO     : Found 0 constant generator nets.
+INFO     : Pass 0: Swept away 0 nets with no fanout.
+INFO     : logical_block #21(sys_pll_LOCKED) has no fanout.
+INFO     : Removing input.
+INFO     : Pass 0: Swept away 1 blocks with no fanout.
+INFO     : Pass 1: Swept away 0 nets with no fanout.
+INFO     : Pass 1: Swept away 0 blocks with no fanout.
+INFO     : Swept away 0 nets and 1 blocks in total.
+INFO     : Removed 0 LUT buffers
+INFO     : Sweept away 1 nodes
+INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.vdb".
+INFO     : Netlist pre-processing took 0.216713 seconds.
+INFO     : 	Netlist pre-processing took 0.125 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing virtual memory usage: begin = 116.884 MB, end = 117.308 MB, delta = 0.424 MB
+INFO     : 	Netlist pre-processing peak virtual memory usage = 117.316 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 92.064 MB, end = 93.58 MB, delta = 1.516 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 93.584 MB
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Load Global Network took 0.653134 seconds.
+INFO     : 	Load Global Network took 0.25 seconds (approximately) in total CPU time.
+INFO     : Load Global Network virtual memory usage: begin = 117.308 MB, end = 117.308 MB, delta = 0 MB
+INFO     : 	Load Global Network peak virtual memory usage = 117.316 MB
+INFO     : Load Global Network resident set memory usage: begin = 93.648 MB, end = 101.776 MB, delta = 8.128 MB
+INFO     : 	Load Global Network peak resident set memory usage = 101.78 MB
+INFO     : Reading C:/Efinity/2024.2/arch/.\rr_pb_hier_mapping.xml
+           ***** Beginning stage pre-packing ... *****
+           ***** Ending stage pre-packing *****
+           
+           ***** Beginning stage packing ... *****
+INFO     : Generate proto netlist for file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/work_pnr\Ti60_HDMI_CharDsiplay720P.net_proto" took 0.066 seconds
+INFO     : Creating IO constraints file 'F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/work_pnr\Ti60_HDMI_CharDsiplay720P.io_place'
+INFO     : Packing took 0.132278 seconds.
+INFO     : 	Packing took 0.03125 seconds (approximately) in total CPU time.
+INFO     : Packing virtual memory usage: begin = 127.376 MB, end = 127.376 MB, delta = 0 MB
+INFO     : 	Packing peak virtual memory usage = 127.376 MB
+INFO     : Packing resident set memory usage: begin = 131.984 MB, end = 133.464 MB, delta = 1.48 MB
+INFO     : 	Packing peak resident set memory usage = 133.468 MB
+           ***** Ending stage packing *****
+           
+INFO     : Read proto netlist file F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/work_pnr\Ti60_HDMI_CharDsiplay720P.net_proto
+INFO     : Read proto netlist for file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/work_pnr\Ti60_HDMI_CharDsiplay720P.net_proto" took 0.004 seconds
+INFO     : Setup net and block data structure took 0.055 seconds
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+           ***** Beginning stage packed netlist loading ... *****
+INFO     : Read proto netlist file F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/work_pnr\Ti60_HDMI_CharDsiplay720P.net_proto
+INFO     : Read proto netlist for file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/work_pnr\Ti60_HDMI_CharDsiplay720P.net_proto" took 0.003 seconds
+INFO     : Setup net and block data structure took 0.045 seconds
+INFO     : Packed netlist loading took 0.0563152 seconds.
+INFO     : 	Packed netlist loading took 0.046875 seconds (approximately) in total CPU time.
+INFO     : Packed netlist loading virtual memory usage: begin = 165.596 MB, end = 165.604 MB, delta = 0.008 MB
+INFO     : 	Packed netlist loading peak virtual memory usage = 165.604 MB
+INFO     : Packed netlist loading resident set memory usage: begin = 172.344 MB, end = 172.376 MB, delta = 0.032 MB
+INFO     : 	Packed netlist loading peak resident set memory usage = 172.38 MB
+           ***** Ending stage packed netlist loading *****
+           
+           ***** Beginning stage pre-placement ... *****
+           
+           ***** Ending stage pre-placement *****
+           
+WARNING  : No ports matched 'pll_inst2_CLKOUT0'
+WARNING  : [SDC F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:18] No valid pin(s) found for clock
+WARNING  : [SDC F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:18] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : No ports matched 'clk_ref'
+WARNING  : [SDC F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:20] No valid pin(s) found for clock
+WARNING  : [SDC F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:20] Unable to run 'create_clock' constraint due to warnings found
+INFO     : SDC file 'F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc' parsed successfully.
+INFO     : 3 clocks (including virtual clocks), 0 inputs and 48 outputs were constrained.
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Writing IO placement constraints to "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow\Ti60_HDMI_CharDsiplay720P.interface.io"
+INFO     : Reading placement constraints from 'F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow\Ti60_HDMI_CharDsiplay720P.interface.io'.
+INFO     : Reading placement constraints from 'F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/work_pnr\Ti60_HDMI_CharDsiplay720P.io_place'.
+WARNING  : led_o[7] has no assigned placement; it will be placed randomly.
+WARNING  : led_o[6] has no assigned placement; it will be placed randomly.
+INFO     : 2 IOs will have random placement.
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Found 21 synchronizers as follows: 
+INFO     : 	Synchronizer 0: 
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][6]~FF
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[6]~FF
+INFO     : 	Synchronizer 1: 
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][1]~FF
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[1]~FF
+INFO     : 	Synchronizer 2: 
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][3]~FF
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[3]~FF
+INFO     : 	Synchronizer 3: 
+INFO     :  u_afifo_w20d16/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][3]~FF
+INFO     :  u_afifo_w20d16/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[3]~FF
+INFO     : 	Synchronizer 4: 
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][4]~FF
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[4]~FF
+INFO     : 	Synchronizer 5: 
+INFO     :  u_afifo_w20d16/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][4]~FF
+INFO     :  u_afifo_w20d16/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[4]~FF
+INFO     : 	Synchronizer 6: 
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][5]~FF
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[5]~FF
+INFO     : 	Synchronizer 7: 
+INFO     :  u_afifo_w20d16/u_efx_fifo_top/genblk2.genblk1.efx_resetsync_wr_rst/active_high.efx_resetsync_active_high/async_reg[0][0]~FF
+INFO     :  u_afifo_w20d16/u_efx_fifo_top/wr_rst_int~FF
+INFO     : 	Synchronizer 8: 
+INFO     :  u_afifo_w20d16/u_efx_fifo_top/genblk2.genblk1.efx_resetsync_rd_rst/active_high.efx_resetsync_active_high/async_reg[0][0]~FF
+INFO     :  u_afifo_w20d16/u_efx_fifo_top/rd_rst_int~FF
+INFO     : 	Synchronizer 9: 
+INFO     :  u_afifo_w20d16/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][2]~FF
+INFO     :  u_afifo_w20d16/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[2]~FF
+INFO     : 	Synchronizer 10: 
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][2]~FF
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[2]~FF
+INFO     : 	Synchronizer 11: 
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][7]~FF
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[7]~FF
+INFO     : 	Synchronizer 12: 
+INFO     :  u_afifo_w20d16/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][0]~FF
+INFO     :  u_afifo_w20d16/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[0]~FF
+INFO     : 	Synchronizer 13: 
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][0]~FF
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[0]~FF
+INFO     : 	Synchronizer 14: 
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][10]~FF
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[10]~FF
+INFO     : 	Synchronizer 15: 
+INFO     :  u_afifo_w20d16/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][1]~FF
+INFO     :  u_afifo_w20d16/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[1]~FF
+INFO     : 	Synchronizer 16: 
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][8]~FF
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[8]~FF
+INFO     : 	Synchronizer 17: 
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][11]~FF
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[11]~FF
+INFO     : 	Synchronizer 18: 
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.wr2rd_addr_sync/async_reg[0][9]~FF
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ctl/async_clk.waddr_cntr_gry_sync[9]~FF
+INFO     : 	Synchronizer 19: 
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/genblk2.genblk1.efx_resetsync_rd_rst/active_high.efx_resetsync_active_high/async_reg[0][0]~FF
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/rd_rst_int~FF
+INFO     : 	Synchronizer 20: 
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/genblk2.genblk1.efx_resetsync_wr_rst/active_high.efx_resetsync_active_high/async_reg[0][0]~FF
+INFO     :  u_afifo_w8d2048/u_efx_fifo_top/wr_rst_int~FF
+INFO     : Create F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow\Ti60_HDMI_CharDsiplay720P_after_qp.qdelay
+INFO     : QPLACER STATIC DB USAGE DISABLED
+WARNING  : No ports matched 'pll_inst2_CLKOUT0'
+WARNING  : [SDC F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:18] No valid pin(s) found for clock
+WARNING  : [SDC F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:18] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : No ports matched 'clk_ref'
+WARNING  : [SDC F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:20] No valid pin(s) found for clock
+WARNING  : [SDC F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:20] Unable to run 'create_clock' constraint due to warnings found
+INFO     : SDC file 'F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc' parsed successfully.
+INFO     : 3 clocks (including virtual clocks), 0 inputs and 48 outputs were constrained.
+INFO     : Starting Global Placer with 6 threads ...
+            ----------     -------  --------------     -------
+             Iteration       WHPWL Worst Slack (ps) Convergence
+            ----------     -------  --------------     -------
+INFO     :           1    50216648            8699         1.6%
+INFO     :           2    38565948            8699         2.4%
+INFO     :           3    24931196            8806         3.5%
+INFO     :           4    20928558            8726         5.0%
+INFO     :           5    14386587            8114         9.5%
+INFO     :           6    11296810            7390        16.0%
+INFO     :           7     9888806            7185        22.6%
+INFO     :           8     8670925            6699        33.7%
+INFO     :           9     7964430            6220        45.5%
+INFO     :          10     7530128            5935        58.7%
+INFO     :          11     7257896            6183        68.0%
+INFO     :          12     7204336            6293        73.6%
+INFO     :          13     7131665            6209        75.5%
+INFO     :          14     7151608            6589        78.0%
+INFO     :          15     7082624            6120        78.7%
+INFO     :          16     7109680            6465        81.8%
+INFO     :          17     7031745            6633        81.8%
+INFO     :          18     7041840            6750        84.9%
+INFO     :          19     6996339            6674        84.9%
+INFO     :          20     6994378            6727        85.0%
+INFO     :          21     6999931            6717        85.8%
+INFO     :          22     6983503            6963        86.4%
+INFO     :          23     6958456            6756        88.3%
+INFO     :          24     7001608            6682        88.6%
+INFO     :          25     6977022            6612        88.6%
+INFO     :          26     6981170            6491        89.4%
+INFO     :          27     6971931            6638        89.4%
+INFO     :          28     6964733            6735        90.8%
+INFO     :          29     6930617            6688        91.3%
+INFO     :          30     6926725            6513        92.8%
+INFO     :          31     6952491            6522        93.9%
+INFO     :          32     6956877            6510        94.7%
+INFO     :          33     6961047            6434        96.1%
+INFO     :          34     6899845            6499        96.6%
+INFO     :          35     6900998            6392        97.6%
+INFO     :          36     6916142            6405        98.6%
+INFO     :          37     6926451            6049        99.2%
+INFO     :          38     6940757            6224        99.4%
+INFO     :          39     6967580            6061        99.7%
+INFO     :          40     6986677            6154        99.7%
+INFO     : Starting Annealer
+            ----------     -------  --------------     -------
+             Iteration       WHPWL  Delay Max (ps)     R Limit
+            ----------     -------  --------------     -------
+INFO     :           0       93520            6834        30.0
+INFO     :           1       90734            7184        90.0
+INFO     :           2       88908            7927        27.5
+INFO     :           3       84210            7919        26.1
+INFO     :           4       83242            7922        24.6
+INFO     :           5       82614            7865        23.1
+INFO     :           6       80784            7693        21.6
+INFO     :           7       80335            7933        20.2
+INFO     :           8       79868            8155        18.7
+INFO     :           9       79129            7969        17.4
+INFO     :          10       78145            7992        16.0
+INFO     :          11       77771            7805        14.9
+INFO     :          12       77041            7989        13.7
+INFO     :          13       76523            7982        12.6
+INFO     :          14       75954            8072        11.6
+INFO     :          15       76511           11081        10.7
+INFO     :          16       75885            7642         9.8
+INFO     :          17       75502            7797         9.0
+INFO     :          18       74717            7683         8.2
+INFO     :          19       74706            7679         7.5
+INFO     :          20       74087            7634         6.9
+INFO     :          21       73798            7456         6.3
+INFO     :          22       74012            7668         5.7
+INFO     :          23       74105            7924         5.3
+INFO     :          24       73785            7868         4.8
+INFO     :          25       73647            7615         4.4
+INFO     :          26       73411            7605         4.0
+INFO     :          27       73264            7782         3.7
+INFO     :          28       73230            7723         3.4
+INFO     :          29       73417            7542         3.1
+INFO     :          30       73176            7617         2.8
+INFO     :          31       72946            7677         2.6
+INFO     :          32       72502            7735         2.3
+INFO     : Counted delay computer calls: 7006
+Generate F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow\Ti60_HDMI_CharDsiplay720P_after_qp.qdelay
+INFO     : Placement successful: 5852 cells are placed
+INFO     : Peak congestion smeared over 1/4 of the chip is 0.272362 at 18,88
+INFO     : Congestion-weighted HPWL per net: 551.731
+INFO     : Post-placement cluster-level checks is successful
+INFO     : Checks is successful
+INFO     : Placement took 18.5352 seconds.
+INFO     : 	Placement took 24.2188 seconds (approximately) in total CPU time.
+INFO     : Placement virtual memory usage: begin = 152.196 MB, end = 303.18 MB, delta = 150.984 MB
+INFO     : 	Placement peak virtual memory usage = 303.18 MB
+INFO     : Placement resident set memory usage: begin = 164.14 MB, end = 314.992 MB, delta = 150.852 MB
+INFO     : 	Placement peak resident set memory usage = 314.996 MB
+INFO     : Post-placement primitive-level checks is successful

@@ -1,0 +1,244 @@
+DEBUG    : Initialising Efx::ConcurrencyControl with 6 threads [Debug]
+INFO     : --max_threads set to 6 
+INFO     : --max_threads set to 6 
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully Read in Verific binary Netlist dump file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.vdb".
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0345982 seconds.
+INFO     : 	VDB Netlist Checker took 0.0625 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 666.208 MB, end = 666.636 MB, delta = 0.428 MB
+INFO     : 	VDB Netlist Checker peak virtual memory usage = 670.376 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 686.764 MB, end = 687.12 MB, delta = 0.356 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 696.164 MB
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : Creating interface clock pin clk_pixel_serial.
+INFO     : Found 0 constant generator nets.
+INFO     : Pass 0: Swept away 6 nets with no fanout.
+INFO     : logical_block #4(jtag_inst2_DRCK) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #5(jtag_inst2_RESET) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #6(jtag_inst2_RUNTEST) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #11(jtag_inst2_TMS) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #12(jtag_inst2_UPDATE) has no fanout.
+INFO     : Removing input.
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[0]~FF #332 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[1]~FF #341 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[2]~FF #342 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[3]~FF #343 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[4]~FF #344 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[5]~FF #345 has no fanout. Check synthesis flow
+INFO     : Pass 0: Swept away 5 blocks with no fanout.
+INFO     : Pass 1: Swept away 0 nets with no fanout.
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[0]~FF #332 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[1]~FF #341 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[2]~FF #342 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[3]~FF #343 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[4]~FF #344 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[5]~FF #345 has no fanout. Check synthesis flow
+INFO     : Pass 1: Swept away 0 blocks with no fanout.
+INFO     : Swept away 6 nets and 5 blocks in total.
+INFO     : Removed 0 LUT buffers
+INFO     : Sweept away 5 nodes
+INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.vdb".
+INFO     : Netlist pre-processing took 0.667923 seconds.
+INFO     : 	Netlist pre-processing took 0.234375 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing virtual memory usage: begin = 666.208 MB, end = 666.644 MB, delta = 0.436 MB
+INFO     : 	Netlist pre-processing peak virtual memory usage = 670.376 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 686.72 MB, end = 687.128 MB, delta = 0.408 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 696.164 MB
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Load Global Network took 0.674826 seconds.
+INFO     : 	Load Global Network took 0.28125 seconds (approximately) in total CPU time.
+INFO     : Load Global Network virtual memory usage: begin = 666.644 MB, end = 666.788 MB, delta = 0.144 MB
+INFO     : 	Load Global Network peak virtual memory usage = 670.376 MB
+INFO     : Load Global Network resident set memory usage: begin = 687.136 MB, end = 687.292 MB, delta = 0.156 MB
+INFO     : 	Load Global Network peak resident set memory usage = 696.164 MB
+INFO     : Reading C:/Efinity/2024.2/arch/.\rr_pb_hier_mapping.xml
+INFO     : Read proto netlist file F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/work_pnr\LED_8bit_Test.net_proto
+INFO     : Read proto netlist for file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/work_pnr\LED_8bit_Test.net_proto" took 0.003 seconds
+INFO     : Setup net and block data structure took 0.072 seconds
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : Counting 1 clocks that are not assigned to clock resources as global clocks.
+INFO     : Run checks after load placement.
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : SDC file 'F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/VIP_System.sdc' parsed successfully.
+INFO     : 1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Router Setup
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing trace digest: 3739786084554343653
+INFO     : Successfully reloaded trace from trace file
+INFO     : SDC file 'F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/VIP_System.sdc' parsed successfully.
+INFO     : 1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+INFO     : Deleting any pre-existing troute trace files
+INFO     : Removing troute trace file 'LED_8bit_Test.troutingtraces' 
+INFO     : Deleting any pre-existing troute trace files
+INFO     : Deleting any pre-existing troute trace files
+INFO     : --max_threads set to 6 
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully Read in Verific binary Netlist dump file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.vdb".
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0353815 seconds.
+INFO     : 	VDB Netlist Checker took 0.09375 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 343.516 MB, end = 344.004 MB, delta = 0.488 MB
+INFO     : 	VDB Netlist Checker peak virtual memory usage = 688.816 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 364.776 MB, end = 365.192 MB, delta = 0.416 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 705.768 MB
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : Creating interface clock pin clk_pixel_serial.
+INFO     : Found 0 constant generator nets.
+INFO     : Pass 0: Swept away 6 nets with no fanout.
+INFO     : logical_block #4(jtag_inst2_DRCK) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #5(jtag_inst2_RESET) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #6(jtag_inst2_RUNTEST) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #11(jtag_inst2_TMS) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #12(jtag_inst2_UPDATE) has no fanout.
+INFO     : Removing input.
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[0]~FF #332 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[1]~FF #341 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[2]~FF #342 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[3]~FF #343 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[4]~FF #344 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[5]~FF #345 has no fanout. Check synthesis flow
+INFO     : Pass 0: Swept away 5 blocks with no fanout.
+INFO     : Pass 1: Swept away 0 nets with no fanout.
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[0]~FF #332 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[1]~FF #341 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[2]~FF #342 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[3]~FF #343 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[4]~FF #344 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[5]~FF #345 has no fanout. Check synthesis flow
+INFO     : Pass 1: Swept away 0 blocks with no fanout.
+INFO     : Swept away 6 nets and 5 blocks in total.
+INFO     : Removed 0 LUT buffers
+INFO     : Sweept away 5 nodes
+INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.vdb".
+INFO     : Netlist pre-processing took 0.255207 seconds.
+INFO     : 	Netlist pre-processing took 0.265625 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing virtual memory usage: begin = 342.556 MB, end = 348.78 MB, delta = 6.224 MB
+INFO     : 	Netlist pre-processing peak virtual memory usage = 688.816 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 363.908 MB, end = 370.684 MB, delta = 6.776 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 705.768 MB
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Load Global Network took 0.669611 seconds.
+INFO     : 	Load Global Network took 0.28125 seconds (approximately) in total CPU time.
+INFO     : Load Global Network virtual memory usage: begin = 350.62 MB, end = 382.788 MB, delta = 32.168 MB
+INFO     : 	Load Global Network peak virtual memory usage = 688.816 MB
+INFO     : Load Global Network resident set memory usage: begin = 372.524 MB, end = 404.128 MB, delta = 31.604 MB
+INFO     : 	Load Global Network peak resident set memory usage = 705.768 MB
+INFO     : Reading C:/Efinity/2024.2/arch/.\rr_pb_hier_mapping.xml
+INFO     : Read proto netlist file F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/work_pnr\LED_8bit_Test.net_proto
+INFO     : Read proto netlist for file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/work_pnr\LED_8bit_Test.net_proto" took 0.004 seconds
+INFO     : Setup net and block data structure took 0.075 seconds
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : Counting 1 clocks that are not assigned to clock resources as global clocks.
+INFO     : Run checks after load placement.
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : SDC file 'F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/VIP_System.sdc' parsed successfully.
+INFO     : 1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Router Setup
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing trace digest: 3739786084554343653
+INFO     : Successfully reloaded trace from trace file
+INFO     : SDC file 'F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/VIP_System.sdc' parsed successfully.
+INFO     : 1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+INFO     : Deleting any pre-existing troute trace files
+INFO     : Removing troute trace file 'LED_8bit_Test.troutingtraces' 
+INFO     : Deleting any pre-existing troute trace files
+INFO     : Deleting any pre-existing troute trace files
+INFO     : --max_threads set to 6 
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully Read in Verific binary Netlist dump file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.vdb".
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0359394 seconds.
+INFO     : 	VDB Netlist Checker took 0.046875 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 349.796 MB, end = 350.204 MB, delta = 0.408 MB
+INFO     : 	VDB Netlist Checker peak virtual memory usage = 699.448 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 371.988 MB, end = 372.324 MB, delta = 0.336 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 705.768 MB
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : Creating interface clock pin clk_pixel_serial.
+INFO     : Found 0 constant generator nets.
+INFO     : Pass 0: Swept away 6 nets with no fanout.
+INFO     : logical_block #4(jtag_inst2_DRCK) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #5(jtag_inst2_RESET) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #6(jtag_inst2_RUNTEST) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #11(jtag_inst2_TMS) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #12(jtag_inst2_UPDATE) has no fanout.
+INFO     : Removing input.
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[0]~FF #330 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[1]~FF #339 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[2]~FF #340 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[3]~FF #341 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[4]~FF #342 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[5]~FF #343 has no fanout. Check synthesis flow
+INFO     : Pass 0: Swept away 5 blocks with no fanout.
+INFO     : Pass 1: Swept away 0 nets with no fanout.
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[0]~FF #330 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[1]~FF #339 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[2]~FF #340 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[3]~FF #341 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[4]~FF #342 has no fanout. Check synthesis flow
+WARNING  : logical_block u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[5]~FF #343 has no fanout. Check synthesis flow
+INFO     : Pass 1: Swept away 0 blocks with no fanout.
+INFO     : Swept away 6 nets and 5 blocks in total.
+INFO     : Removed 0 LUT buffers
+INFO     : Sweept away 5 nodes
+INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.vdb".
+INFO     : Netlist pre-processing took 0.308819 seconds.
+INFO     : 	Netlist pre-processing took 0.296875 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing virtual memory usage: begin = 348.932 MB, end = 358.284 MB, delta = 9.352 MB
+INFO     : 	Netlist pre-processing peak virtual memory usage = 699.448 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 371.216 MB, end = 380.456 MB, delta = 9.24 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 705.768 MB
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Load Global Network took 0.667389 seconds.
+INFO     : 	Load Global Network took 0.21875 seconds (approximately) in total CPU time.
+INFO     : Load Global Network virtual memory usage: begin = 358.284 MB, end = 384.34 MB, delta = 26.056 MB
+INFO     : 	Load Global Network peak virtual memory usage = 699.448 MB
+INFO     : Load Global Network resident set memory usage: begin = 380.46 MB, end = 405.876 MB, delta = 25.416 MB
+INFO     : 	Load Global Network peak resident set memory usage = 705.768 MB
+INFO     : Reading C:/Efinity/2024.2/arch/.\rr_pb_hier_mapping.xml
+INFO     : Read proto netlist file F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/work_pnr\LED_8bit_Test.net_proto
+INFO     : Read proto netlist for file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/work_pnr\LED_8bit_Test.net_proto" took 0.006 seconds
+INFO     : Setup net and block data structure took 0.076 seconds
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : Counting 1 clocks that are not assigned to clock resources as global clocks.
+INFO     : Run checks after load placement.
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/outflow/LED_8bit_Test.interface.csv"
+INFO     : SDC file 'F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/VIP_System.sdc' parsed successfully.
+INFO     : 1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Router Setup
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing trace digest: 5576102942575448807
+INFO     : Successfully reloaded trace from trace file
+INFO     : SDC file 'F:/usefullMaterial/new/Ti60/V7_Ti60F225_RISCV_APB3_Picture/VIP_System.sdc' parsed successfully.
+INFO     : 1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.

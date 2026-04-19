@@ -1,0 +1,90 @@
+
+# Efinity Interface Configuration
+# Version: 2024.2.294.1.19
+# Date: 2024-06-21 16:44
+
+# Copyright (C) 2013 - 2024 Efinix Inc. All rights reserved.
+
+# [required | optional] (input|output|clkout), x, y, z, __bypass__|[~|!]<clock>, [[~|!]<pin_name>] | __vcc__ | __gnd__
+clkout, 31, 323, -1, clk_pixel_parallel
+clkout, 55, 323, -1, clk_pixel_parallel
+clkout, 63, 323, -1, clk_pixel_parallel
+clkout, 195, 323, -1, clk_pixel_parallel
+clkout, 27, 323, -1, clk_pixel_serial
+clkout, 51, 323, -1, clk_pixel_serial
+clkout, 59, 323, -1, clk_pixel_serial
+clkout, 191, 323, -1, clk_pixel_serial
+optional input, 0, 313, 3, __bypass__, clk
+input, 0, 24, 3, __bypass__, jtag_inst2_CAPTURE
+input, 0, 20, 3, __bypass__, jtag_inst2_DRCK
+input, 0, 22, 3, __bypass__, jtag_inst2_RESET
+input, 0, 23, 1, __bypass__, jtag_inst2_RUNTEST
+input, 0, 20, 1, __bypass__, jtag_inst2_SEL
+input, 0, 23, 3, __bypass__, jtag_inst2_SHIFT
+input, 0, 22, 1, __bypass__, jtag_inst2_TCK
+input, 0, 21, 1, __bypass__, jtag_inst2_TDI
+output, 0, 23, 0, __bypass__, jtag_inst2_TDO
+input, 0, 21, 3, __bypass__, jtag_inst2_TMS
+input, 0, 24, 1, __bypass__, jtag_inst2_UPDATE
+output, 219, 8, 2, __bypass__, led_data[0]
+output, 219, 13, 0, __bypass__, led_data[1]
+output, 219, 4, 0, __bypass__, led_data[2]
+output, 219, 14, 2, __bypass__, led_data[3]
+output, 219, 10, 0, __bypass__, led_data[4]
+output, 219, 5, 2, __bypass__, led_data[5]
+output, 0, 4, 0, __bypass__, led_data[6]
+output, 0, 5, 2, __bypass__, led_data[7]
+input, 0, 312, 1, __bypass__, pll_inst1_LOCKED
+output, 47, 323, 0, __bypass__, tmds_lvds_tx_clk_o[0]
+output, 47, 323, 2, __bypass__, tmds_lvds_tx_clk_o[1]
+output, 48, 323, 0, __bypass__, tmds_lvds_tx_clk_o[2]
+output, 48, 323, 2, __bypass__, tmds_lvds_tx_clk_o[3]
+output, 49, 323, 0, __bypass__, tmds_lvds_tx_clk_o[4]
+output, 49, 323, 2, __bypass__, tmds_lvds_tx_clk_o[5]
+output, 50, 323, 0, __bypass__, tmds_lvds_tx_clk_o[6]
+output, 50, 323, 2, __bypass__, tmds_lvds_tx_clk_o[7]
+output, 51, 323, 0, __bypass__, tmds_lvds_tx_clk_o[8]
+output, 51, 323, 2, __bypass__, tmds_lvds_tx_clk_o[9]
+required output, 53, 323, 2, __bypass__, tmds_lvds_tx_clk_oe
+required output, 57, 323, 0, __bypass__, tmds_lvds_tx_clk_rst
+output, 207, 323, 2, __bypass__, tmds_lvds_tx_data0[0]
+output, 208, 323, 0, __bypass__, tmds_lvds_tx_data0[1]
+output, 208, 323, 2, __bypass__, tmds_lvds_tx_data0[2]
+output, 209, 323, 0, __bypass__, tmds_lvds_tx_data0[3]
+output, 209, 323, 2, __bypass__, tmds_lvds_tx_data0[4]
+output, 210, 323, 0, __bypass__, tmds_lvds_tx_data0[5]
+output, 210, 323, 2, __bypass__, tmds_lvds_tx_data0[6]
+output, 211, 323, 0, __bypass__, tmds_lvds_tx_data0[7]
+output, 211, 323, 2, __bypass__, tmds_lvds_tx_data0[8]
+output, 212, 323, 0, __bypass__, tmds_lvds_tx_data0[9]
+required output, 214, 323, 0, __bypass__, tmds_lvds_tx_data0_oe
+required output, 217, 323, 2, __bypass__, tmds_lvds_tx_data0_rst
+output, 2, 323, 0, __bypass__, tmds_lvds_tx_data1[0]
+output, 2, 323, 2, __bypass__, tmds_lvds_tx_data1[1]
+output, 3, 323, 0, __bypass__, tmds_lvds_tx_data1[2]
+output, 3, 323, 2, __bypass__, tmds_lvds_tx_data1[3]
+output, 4, 323, 0, __bypass__, tmds_lvds_tx_data1[4]
+output, 4, 323, 2, __bypass__, tmds_lvds_tx_data1[5]
+output, 5, 323, 0, __bypass__, tmds_lvds_tx_data1[6]
+output, 5, 323, 2, __bypass__, tmds_lvds_tx_data1[7]
+output, 6, 323, 0, __bypass__, tmds_lvds_tx_data1[8]
+output, 6, 323, 2, __bypass__, tmds_lvds_tx_data1[9]
+required output, 8, 323, 2, __bypass__, tmds_lvds_tx_data1_oe
+required output, 12, 323, 0, __bypass__, tmds_lvds_tx_data1_rst
+output, 36, 323, 0, __bypass__, tmds_lvds_tx_data2[0]
+output, 36, 323, 2, __bypass__, tmds_lvds_tx_data2[1]
+output, 37, 323, 0, __bypass__, tmds_lvds_tx_data2[2]
+output, 37, 323, 2, __bypass__, tmds_lvds_tx_data2[3]
+output, 38, 323, 0, __bypass__, tmds_lvds_tx_data2[4]
+output, 38, 323, 2, __bypass__, tmds_lvds_tx_data2[5]
+output, 39, 323, 0, __bypass__, tmds_lvds_tx_data2[6]
+output, 39, 323, 2, __bypass__, tmds_lvds_tx_data2[7]
+output, 40, 323, 0, __bypass__, tmds_lvds_tx_data2[8]
+output, 40, 323, 2, __bypass__, tmds_lvds_tx_data2[9]
+required output, 42, 323, 2, __bypass__, tmds_lvds_tx_data2_oe
+required output, 46, 323, 0, __bypass__, tmds_lvds_tx_data2_rst
+input, 202, 323, 3, __bypass__, uart_rx
+output, 198, 323, 0, __bypass__, uart_tx
+input, 0, 159, 1, __bypass__, ~clk_pixel_parallel
+input, 0, 163, 1, __bypass__, ~clk_pixel_serial
+input, 0, 162, 1, __bypass__, ~pll_inst1_CLKOUT0

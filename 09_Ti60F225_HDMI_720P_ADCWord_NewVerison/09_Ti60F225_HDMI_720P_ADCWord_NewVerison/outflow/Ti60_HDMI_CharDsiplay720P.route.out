@@ -1,0 +1,165 @@
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Router Setup
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : [Setup Parallel Routing Scheduler]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Route Circuit with 6 threads
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 0.00% (from 7878ps to 7878ps)
+INFO     : CSS improved CPD of clock clk_pixel by 0.00% (from 7878ps to 7878ps)
+INFO     : Discretized beneficial skew improved geomean CPD by 0.00% (from 7878ps to 7878ps in 4 iterations and 0.2 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Overridding delay budgets for 38 synchronizer-related pins
+
+INFO     : Iter  1: overlap=15984   heapops=1679108    (0%) cpd=7878  frr=1.00  msec=712
+INFO     : [Setup Delay Budgets | 91.1 ms]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Hold Fixing
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Total min wire delay:   1891242
+INFO     : Hold fix wire delay:          0
+INFO     : Hold fix delay ratio:     0.00%
+INFO     : Pins requiring hold fix:  0.00%
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter  2: overlap=6815    heapops=1368261    (31%) cpd=8675  frr=1.10  msec=346
+INFO     : Iter  3: overlap=3329    heapops=1134128    (53%) cpd=8679  frr=1.10  msec=282
+INFO     : Iter  4: overlap=1251    heapops=814849     (72%) cpd=8700  frr=1.10  msec=224
+INFO     : Iter  5: overlap=295     heapops=385706     (87%) cpd=8941  frr=1.13  msec=151
+INFO     : [Rebuild Parallel Routing Scheduler]
+INFO     : Iter  6: overlap=45      heapops=122333     (93%) cpd=8941  frr=1.13  msec=129
+INFO     : Iter  7: overlap=3       heapops=34963      (95%) cpd=8941  frr=1.13  msec=80
+INFO     : Iter  8: overlap=1       heapops=24567      (95%) cpd=8941  frr=1.13  msec=78
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 0.00% (from 8941ps to 8941ps)
+INFO     : CSS improved CPD of clock clk_pixel by 0.00% (from 8941ps to 8941ps)
+INFO     : Discretized beneficial skew improved geomean CPD by 0.00% (from 8941ps to 8941ps in 1 iterations and 0.2 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter  9: overlap=0       heapops=25912      (95%) cpd=8941  frr=1.13  msec=314
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Result
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Succeeded in 2.58 seconds taking 9 iterations! 
+INFO     : 
+INFO     : First iteration critical path delay = 7.878 ns 
+INFO     : Last iteration critical path delay  = 8.941 ns (ratio = 1.13)
+INFO     : Max Routing Heap Size = 7,903
+INFO     : Routing trace written to file 'F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.troutingtraces' 
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing took 4.10341 seconds.
+INFO     : 	Routing took 8.59375 seconds (approximately) in total CPU time.
+INFO     : Routing virtual memory usage: begin = 131.412 MB, end = 374.8 MB, delta = 243.388 MB
+INFO     : 	Routing peak virtual memory usage = 424.448 MB
+INFO     : Routing resident set memory usage: begin = 143.6 MB, end = 376.4 MB, delta = 232.8 MB
+INFO     : 	Routing peak resident set memory usage = 393.628 MB
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully Read in Verific binary Netlist dump file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.vdb".
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+WARNING  : F:\usefullMaterial\new\Ti60\09_Ti60F225_HDMI_720P_ADCWord_NewVerison\src\wave_display.v(4): Input/inout port clk27m is unconnected and will be removed. [VDB-8003]
+WARNING  : F:\usefullMaterial\new\Ti60\09_Ti60F225_HDMI_720P_ADCWord_NewVerison\src\wave_display.v(13): Input/inout port sys_pll_LOCKED is unconnected and will be removed. [VDB-8003]
+INFO     : Found 2 warnings in the post-synthesis netlist.
+INFO     : VDB Netlist Checker took 0.025401 seconds.
+INFO     : 	VDB Netlist Checker took 0.015625 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 412.692 MB, end = 412.696 MB, delta = 0.004 MB
+INFO     : 	VDB Netlist Checker peak virtual memory usage = 424.448 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 416.588 MB, end = 416.592 MB, delta = 0.004 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 416.596 MB
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Creating interface clock pin clk_pixel_5x.
+INFO     : Found 0 constant generator nets.
+INFO     : Pass 0: Swept away 0 nets with no fanout.
+INFO     : logical_block #21(sys_pll_LOCKED) has no fanout.
+INFO     : Removing input.
+INFO     : Pass 0: Swept away 1 blocks with no fanout.
+INFO     : Pass 1: Swept away 0 nets with no fanout.
+INFO     : Pass 1: Swept away 0 blocks with no fanout.
+INFO     : Swept away 0 nets and 1 blocks in total.
+INFO     : Removed 0 LUT buffers
+INFO     : Sweept away 1 nodes
+INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.vdb".
+INFO     : Netlist pre-processing took 0.181861 seconds.
+INFO     : 	Netlist pre-processing took 0.140625 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing virtual memory usage: begin = 410.476 MB, end = 418.736 MB, delta = 8.26 MB
+INFO     : 	Netlist pre-processing peak virtual memory usage = 424.448 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 414.264 MB, end = 422.864 MB, delta = 8.6 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 422.868 MB
+           ***** Ending stage netlist pre-processing *****
+           
+           ***** Beginning stage packed netlist loading ... *****
+INFO     : Load Global Network took 0.663642 seconds.
+INFO     : 	Load Global Network took 0.296875 seconds (approximately) in total CPU time.
+INFO     : Load Global Network virtual memory usage: begin = 418.736 MB, end = 451.296 MB, delta = 32.56 MB
+INFO     : 	Load Global Network peak virtual memory usage = 451.296 MB
+INFO     : Load Global Network resident set memory usage: begin = 422.916 MB, end = 455.08 MB, delta = 32.164 MB
+INFO     : 	Load Global Network peak resident set memory usage = 455.084 MB
+INFO     : Reading C:/Efinity/2024.2/arch/.\rr_pb_hier_mapping.xml
+INFO     : Read proto netlist file F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/work_pnr\Ti60_HDMI_CharDsiplay720P.net_proto
+INFO     : Read proto netlist for file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/work_pnr\Ti60_HDMI_CharDsiplay720P.net_proto" took 0.002 seconds
+INFO     : Setup net and block data structure took 0.06 seconds
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Packed netlist loading took 0.964155 seconds.
+INFO     : 	Packed netlist loading took 0.546875 seconds (approximately) in total CPU time.
+INFO     : Packed netlist loading virtual memory usage: begin = 418.736 MB, end = 505.192 MB, delta = 86.456 MB
+INFO     : 	Packed netlist loading peak virtual memory usage = 505.192 MB
+INFO     : Packed netlist loading resident set memory usage: begin = 422.864 MB, end = 506.78 MB, delta = 83.916 MB
+INFO     : 	Packed netlist loading peak resident set memory usage = 506.784 MB
+           ***** Ending stage packed netlist loading *****
+           
+INFO     : Run checks after load placement.
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Successfully loaded placement data from "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.place".
+           ***** Beginning stage final timing analysis ... *****
+WARNING  : No ports matched 'pll_inst2_CLKOUT0'
+WARNING  : [SDC F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:18] No valid pin(s) found for clock
+WARNING  : [SDC F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:18] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : No ports matched 'clk_ref'
+WARNING  : [SDC F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:20] No valid pin(s) found for clock
+WARNING  : [SDC F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:20] Unable to run 'create_clock' constraint due to warnings found
+INFO     : SDC file 'F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc' parsed successfully.
+INFO     : 3 clocks (including virtual clocks), 0 inputs and 48 outputs were constrained.
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+ clk_pixel      9.051        110.485         (R-R)
+
+Geomean max period: 9.051
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+   clk_pixel        clk_pixel          13.468           4.417            (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+   clk_pixel        clk_pixel          0.000            0.035            (R-R)
+
+INFO     : Write Timing Report to "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow\Ti60_HDMI_CharDsiplay720P.timing.rpt" ...
+INFO     : final timing analysis took 1.02013 seconds.
+INFO     : 	final timing analysis took 0.890625 seconds (approximately) in total CPU time.
+INFO     : final timing analysis virtual memory usage: begin = 519.968 MB, end = 537.436 MB, delta = 17.468 MB
+INFO     : 	final timing analysis peak virtual memory usage = 537.436 MB
+INFO     : final timing analysis resident set memory usage: begin = 521.94 MB, end = 539.848 MB, delta = 17.908 MB
+INFO     : 	final timing analysis peak resident set memory usage = 539.852 MB
+           ***** Ending stage final timing analysis *****
+           
+           ***** Beginning stage bitstream generation ... *****
+INFO     : Reading core interface constraints file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Finished writing bitstream file F:/usefullMaterial/new/Ti60/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/work_pnr\Ti60_HDMI_CharDsiplay720P.lbf.
+INFO     : Bitstream generation took 3.07296 seconds.
+INFO     : 	Bitstream generation took 2.84375 seconds (approximately) in total CPU time.
+INFO     : Bitstream generation virtual memory usage: begin = 537.436 MB, end = 634.344 MB, delta = 96.908 MB
+INFO     : 	Bitstream generation peak virtual memory usage = 634.344 MB
+INFO     : Bitstream generation resident set memory usage: begin = 539.888 MB, end = 637.912 MB, delta = 98.024 MB
+INFO     : 	Bitstream generation peak resident set memory usage = 637.916 MB
+           ***** Ending stage bitstream generation *****
+           
+INFO     : The entire flow of EFX_PNR took 34.1124 seconds.
+INFO     : 	The entire flow of EFX_PNR took 41.9062 seconds (approximately) in total CPU time.
+INFO     : The entire flow of EFX_PNR virtual memory usage: begin = 19.388 MB, end = 634.344 MB, delta = 614.956 MB
+INFO     : 	The entire flow of EFX_PNR peak virtual memory usage = 634.344 MB
+INFO     : The entire flow of EFX_PNR resident set memory usage: begin = 18.564 MB, end = 637.956 MB, delta = 619.392 MB
+INFO     : 	The entire flow of EFX_PNR peak resident set memory usage = 637.96 MB

@@ -1,0 +1,475 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 20, 2022 23:54:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 21, 2022 00:05:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 21, 2022 00:09:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 21, 2022 00:14:17
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] parameter initial value cannot be omitted in this mode of Verilog (VERI-1817) (D:/Efinity_Project\02_Ti60F225_Examples\06_Ti60_HDMI_1080P_Test\src\lcd_24bit_ip\lcd_display.v:38)
+[EFX-0010 VERI-ERROR] module 'lcd_display' is ignored due to previous errors (VERI-1072) (D:/Efinity_Project\02_Ti60F225_Examples\06_Ti60_HDMI_1080P_Test\src\lcd_24bit_ip\lcd_display.v:182)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 21, 2022 00:15:13
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] */ is outside a comment (VERI-1189) (D:/Efinity_Project\02_Ti60F225_Examples\06_Ti60_HDMI_1080P_Test\src\lcd_24bit_ip\lcd_display.v:37)
+[EFX-0010 VERI-ERROR] syntax error near 'parameter' (VERI-1137) (D:/Efinity_Project\02_Ti60F225_Examples\06_Ti60_HDMI_1080P_Test\src\lcd_24bit_ip\lcd_display.v:38)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'parameter' used in incorrect context (VERI-2344) (D:/Efinity_Project\02_Ti60F225_Examples\06_Ti60_HDMI_1080P_Test\src\lcd_24bit_ip\lcd_display.v:38)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 21, 2022 00:21:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 03, 2023 16:45:45
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] ANSI port 'tmds_lvds_tx_clk_oe' cannot be redeclared (VERI-2285) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:59)
+[EFX-0010 VERI-ERROR] ANSI port 'tmds_lvds_tx_data0_oe' cannot be redeclared (VERI-2285) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:60)
+[EFX-0010 VERI-ERROR] ANSI port 'tmds_lvds_tx_data1_oe' cannot be redeclared (VERI-2285) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:61)
+[EFX-0010 VERI-ERROR] ANSI port 'tmds_lvds_tx_data2_oe' cannot be redeclared (VERI-2285) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:62)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:24)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:25)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:26)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:27)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'Ti60_HDMI_1080P_Test' with formal port declaration list (VERI-1197) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:59)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'Ti60_HDMI_1080P_Test' with formal port declaration list (VERI-1197) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:60)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'Ti60_HDMI_1080P_Test' with formal port declaration list (VERI-1197) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:61)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'Ti60_HDMI_1080P_Test' with formal port declaration list (VERI-1197) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:62)
+[EFX-0010 VERI-ERROR] module 'Ti60_HDMI_1080P_Test' is ignored due to previous errors (VERI-1072) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:149)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 03, 2023 16:46:56
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] ANSI port 'tmds_lvds_tx_clk_oe' cannot be redeclared (VERI-2285) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:59)
+[EFX-0010 VERI-ERROR] ANSI port 'tmds_lvds_tx_data0_oe' cannot be redeclared (VERI-2285) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:60)
+[EFX-0010 VERI-ERROR] ANSI port 'tmds_lvds_tx_data1_oe' cannot be redeclared (VERI-2285) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:61)
+[EFX-0010 VERI-ERROR] ANSI port 'tmds_lvds_tx_data2_oe' cannot be redeclared (VERI-2285) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:62)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:24)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:25)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:26)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:27)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'Ti60_HDMI_1080P_Test' with formal port declaration list (VERI-1197) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:59)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'Ti60_HDMI_1080P_Test' with formal port declaration list (VERI-1197) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:60)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'Ti60_HDMI_1080P_Test' with formal port declaration list (VERI-1197) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:61)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'Ti60_HDMI_1080P_Test' with formal port declaration list (VERI-1197) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:62)
+[EFX-0010 VERI-ERROR] module 'Ti60_HDMI_1080P_Test' is ignored due to previous errors (VERI-1072) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:149)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 03, 2023 16:47:55
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] ANSI port 'tmds_lvds_tx_clk_oe' cannot be redeclared (VERI-2285) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:59)
+[EFX-0010 VERI-ERROR] ANSI port 'tmds_lvds_tx_data0_oe' cannot be redeclared (VERI-2285) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:60)
+[EFX-0010 VERI-ERROR] ANSI port 'tmds_lvds_tx_data1_oe' cannot be redeclared (VERI-2285) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:61)
+[EFX-0010 VERI-ERROR] ANSI port 'tmds_lvds_tx_data2_oe' cannot be redeclared (VERI-2285) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:62)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:24)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:25)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:26)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:27)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'Ti60_HDMI_1080P_Test' with formal port declaration list (VERI-1197) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:59)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'Ti60_HDMI_1080P_Test' with formal port declaration list (VERI-1197) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:60)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'Ti60_HDMI_1080P_Test' with formal port declaration list (VERI-1197) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:61)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'Ti60_HDMI_1080P_Test' with formal port declaration list (VERI-1197) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:62)
+[EFX-0010 VERI-ERROR] module 'Ti60_HDMI_1080P_Test' is ignored due to previous errors (VERI-1072) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:149)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 03, 2023 16:48:40
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] ANSI port 'tmds_lvds_tx_clk_oe' cannot be redeclared (VERI-2285) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:59)
+[EFX-0010 VERI-ERROR] ANSI port 'tmds_lvds_tx_data0_oe' cannot be redeclared (VERI-2285) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:60)
+[EFX-0010 VERI-ERROR] ANSI port 'tmds_lvds_tx_data1_oe' cannot be redeclared (VERI-2285) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:61)
+[EFX-0010 VERI-ERROR] ANSI port 'tmds_lvds_tx_data2_oe' cannot be redeclared (VERI-2285) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:62)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:24)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:25)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:26)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:27)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'Ti60_HDMI_1080P_Test' with formal port declaration list (VERI-1197) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:59)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'Ti60_HDMI_1080P_Test' with formal port declaration list (VERI-1197) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:60)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'Ti60_HDMI_1080P_Test' with formal port declaration list (VERI-1197) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:61)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'Ti60_HDMI_1080P_Test' with formal port declaration list (VERI-1197) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:62)
+[EFX-0010 VERI-ERROR] module 'Ti60_HDMI_1080P_Test' is ignored due to previous errors (VERI-1072) (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:149)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 03, 2023 16:52:33
+///////////////////////////////////
+
+[EFX-0202 ERROR] Net 'tmds_lvds_tx_data0[9]' has multiple drivers. (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:21)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 03, 2023 16:58:41
+///////////////////////////////////
+
+[EFX-0202 ERROR] Net 'blue_o[9]' has multiple drivers. (D:\study\CB_FPGA\TI60F225_Board_HDK_V1.3\05_Ti60F225_Examples\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:48)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 03, 2023 16:59:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 03, 2023 17:00:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2023 18:45:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 20, 2023 13:28:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 11:18:09
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] declarations are not allowed in an unnamed block (VERI-1380) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display.v:26)
+[EFX-0010 VERI-ERROR] 'y_pos' is not a constant (VERI-1188) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display.v:26)
+[EFX-0010 VERI-ERROR] 'x_pos' is not a constant (VERI-1188) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display.v:27)
+[EFX-0010 VERI-ERROR] 'char_row' is not a constant (VERI-1188) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display.v:30)
+[EFX-0010 VERI-ERROR] 'y_pos' is not a constant (VERI-1188) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display.v:31)
+[EFX-0010 VERI-ERROR] 'x_pos' is not a constant (VERI-1188) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display.v:32)
+[EFX-0010 VERI-ERROR] module 'character_display' is ignored due to previous errors (VERI-1072) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display.v:43)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 11:19:42
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'wire' (VERI-1137) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display.v:27)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'wire' used in incorrect context (VERI-2344) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display.v:27)
+[EFX-0010 VERI-ERROR] syntax error near 'wire' (VERI-1137) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display.v:28)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'wire' used in incorrect context (VERI-2344) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display.v:28)
+[EFX-0010 VERI-ERROR] 'char_y' is not declared (VERI-1128) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display.v:27)
+[EFX-0010 VERI-ERROR] 'char_x' is not declared (VERI-1128) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display.v:28)
+[EFX-0010 VERI-ERROR] 'char_y' is not declared (VERI-1128) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display.v:31)
+[EFX-0010 VERI-ERROR] module 'character_display' is ignored due to previous errors (VERI-1072) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display.v:39)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 11:21:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 11:24:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 11:36:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 11:37:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 11:40:19
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'character_display' (VERI-1063) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:126)
+[EFX-0021 ERROR] Elaboration of module 'Ti60_HDMI_1080P_Test' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 11:40:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 11:48:19
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'character_display' (VERI-1063) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:126)
+[EFX-0021 ERROR] Elaboration of module 'Ti60_HDMI_1080P_Test' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 11:48:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 11:53:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 11:55:59
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'character_display' (VERI-1063) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:126)
+[EFX-0021 ERROR] Elaboration of module 'Ti60_HDMI_1080P_Test' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 11:56:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 14:31:31
+///////////////////////////////////
+
+[EFX-0202 ERROR] Net 'led_o[1]' has multiple drivers. (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:15)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 14:32:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 14:34:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 14:35:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 14:38:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 14:56:41
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'character_display_rom' (VERI-1063) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:86)
+[EFX-0021 ERROR] Elaboration of module 'Ti60_HDMI_1080P_Test' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 14:56:55
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'char_rom' (VERI-1063) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display_rom.v:25)
+[EFX-0021 ERROR] Elaboration of module 'Ti60_HDMI_1080P_Test' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 14:57:20
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'address' on this module (VERI-1010) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display_rom.v:23)
+[EFX-0010 VERI-ERROR] cannot find port 'q' on this module (VERI-1010) (D:\FPGA_learning\GPT_CODE_Project\07_Ti60_HDMI_1080P_Lvds_Test\src\char_display\character_display_rom.v:24)
+[EFX-0021 ERROR] Elaboration of module 'Ti60_HDMI_1080P_Test' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 14:58:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 15:03:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 15:04:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 16:13:52
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'vip_rom1' (VERI-1063) (D:\FPGA_learning\Efinity_Project\Efinity_Char_Display\07_Ti60_HDMI_1080P_Lvds_Test\src\character\lcd_display_char.v:63)
+[EFX-0021 ERROR] Elaboration of module 'Ti60_HDMI_1080P_Test' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 16:14:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2024 16:21:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 10:54:33
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'valid' on this module (VERI-1010) (D:\FPGA_learning\Efinity_Project\Efinity_Char_Display\07_Ti60_HDMI_1080P_Lvds_Test\src\Ti60_HDMI_1080P_Test.v:118)
+[EFX-0021 ERROR] Elaboration of module 'Ti60_HDMI_1080P_Test' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 10:56:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 10:58:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 10:59:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 11:12:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 11:16:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 14:48:01
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (D:\FPGA_learning\Efinity_Project\Efinity_Char_Display\07_Ti60_HDMI_1080P_Lvds_Test\src\hdmi_char_display\vga_pic.v:145)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 14:48:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 14:52:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 14:59:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 15:36:44
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'char[47][447]' is constantly driven from multiple places (VDB-1000) (D:\FPGA_learning\Efinity_Project\Efinity_Char_Display\07_Ti60_HDMI_1080P_Lvds_Test\src\hdmi_char_display\vga_pic.v:143)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (D:\FPGA_learning\Efinity_Project\Efinity_Char_Display\07_Ti60_HDMI_1080P_Lvds_Test\src\hdmi_char_display\vga_pic.v:196)
+[EFX-0021 ERROR] Elaboration of module 'Ti60_HDMI_1080P_Test' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 15:37:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 15:39:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 15:39:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 15:41:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 15:42:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 16:00:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 16:19:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 16:58:18
+///////////////////////////////////
+
+[EFX-0021 ERROR] Elaboration of module 'Ti60_HDMI_1080P_Test' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2024 16:58:34
+///////////////////////////////////
+

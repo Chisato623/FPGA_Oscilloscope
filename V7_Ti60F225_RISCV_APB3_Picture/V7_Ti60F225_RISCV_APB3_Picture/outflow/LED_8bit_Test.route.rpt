@@ -1,0 +1,43 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2024.2.294.1.19 
+Date: Fri Jun 21 16:44:41 2024
+
+Copyright (C) 2013 - 2024 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: LED_8bit_Test
+
+---------- Resource Summary (begin) ----------
+Inputs: 10 / 1703 (0.59%)
+Outputs: 66 / 2267 (2.91%)
+Global Clocks (GBUF): 4 / 32 (12.50%)
+Regional Clocks (RBUF): 0 / 32 (0.00%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 0 / 8 (0.00%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 6102 / 60800 (10.04%)
+	XLRs needed for Logic: 2625 / 60800 (4.32%)
+	XLRs needed for Logic + FF: 1359 / 60800 (2.24%)
+	XLRs needed for Adder: 353 / 60800 (0.58%)
+	XLRs needed for Adder + FF: 353 / 60800 (0.58%)
+	XLRs needed for FF: 1311 / 60800 (2.16%)
+	XLRs needed for SRL8: 3 / 14720 (0.02%)
+	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 98 / 60800 (0.16%)
+Memory Blocks: 124 / 256 (48.44%)
+DSP Blocks: 4 / 160 (2.50%)
+---------- Resource Summary (end) ----------
+
+
+---------- DSP Packer Summary (begin) ----------
+
+	DSP48 blocks required to legally pack design: 4
+	DSP48 blocks recoverable by optimizing:
+		-> DSP24/12 control signals & parameters: 0
+	Best case scenario DSP count after optimizing: 4
+
+---------- DSP Packer Summary (end) ----------
+
+Elapsed time for entire flow: 0 hours 0 minutes 48 seconds

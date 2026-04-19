@@ -1,0 +1,29 @@
+Efinity Interface Designer Device Migration Log
+Version: 2021.2.323.1.8
+Date: 2022-05-09 21:36
+Device Change: T35F324 to Ti60F225
+Migration Type: default
+Block Type Change: MIPI V1 is not supported
+Block Type Change: MIPI_LANE V1 is now supported
+Resource/Pin Assignment: All assignments have been reset
+== Block Type Version Change : GPIO V2 to GPIO V3 ==
+Parameter Change: clk, Existing IO Standard is unsupported, reset to default
+Parameter Change: led_data[0], Existing IO Standard is unsupported, reset to default
+Parameter Change: led_data[0], Existing Drive Strength is unsupported, reset to default
+Parameter Change: led_data[1], Existing IO Standard is unsupported, reset to default
+Parameter Change: led_data[1], Existing Drive Strength is unsupported, reset to default
+Parameter Change: led_data[2], Existing IO Standard is unsupported, reset to default
+Parameter Change: led_data[2], Existing Drive Strength is unsupported, reset to default
+Parameter Change: led_data[3], Existing IO Standard is unsupported, reset to default
+Parameter Change: led_data[3], Existing Drive Strength is unsupported, reset to default
+Parameter Change: led_data[4], Existing IO Standard is unsupported, reset to default
+Parameter Change: led_data[4], Existing Drive Strength is unsupported, reset to default
+Parameter Change: led_data[5], Existing IO Standard is unsupported, reset to default
+Parameter Change: led_data[5], Existing Drive Strength is unsupported, reset to default
+Parameter Change: led_data[6], Existing IO Standard is unsupported, reset to default
+Parameter Change: led_data[6], Existing Drive Strength is unsupported, reset to default
+Parameter Change: led_data[7], Existing IO Standard is unsupported, reset to default
+Parameter Change: led_data[7], Existing Drive Strength is unsupported, reset to default
+== Block Type Version Change : PLL V2 to PLL V3 ==
+Parameter Change: pll_inst1, Multipler(M) is out of range, reset to default
+Parameter Change: pll_inst1, Internal feedback mode is not supported, reset to default

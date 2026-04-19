@@ -1,0 +1,80 @@
+
+---------- Resource Summary (begin) ----------
+Inputs: 22 / 1703 (1.29%)
+Outputs: 68 / 2267 (3.00%)
+Global Clocks (GBUF): 4 / 32 (12.50%)
+Regional Clocks (RBUF): 0 / 32 (0.00%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 0 / 8 (0.00%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 5945 / 60800 (9.78%)
+	XLRs needed for Logic: 4510 / 60800 (7.42%)
+	XLRs needed for Logic + FF: 515 / 60800 (0.85%)
+	XLRs needed for Adder: 357 / 60800 (0.59%)
+	XLRs needed for Adder + FF: 76 / 60800 (0.12%)
+	XLRs needed for FF: 230 / 60800 (0.38%)
+	XLRs needed for SRL8: 4 / 14720 (0.03%)
+	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 253 / 60800 (0.42%)
+Memory Blocks: 160 / 256 (62.50%)
+DSP Blocks: 0 / 160 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+
+---------- GBUFCE Assignments (begin) ----------
+
+
++--------------+----------+----------+
+|  Clock Net   | GBUFCE_X | GBUFCE_Y |
++--------------+----------+----------+
+|    clk27m    |    1     |   159    |
+|   clk_adc    |    1     |   163    |
+|  clk_pixel   |   218    |   159    |
+| clk_pixel_5x |   218    |   163    |
++--------------+----------+----------+
+
+
+----------- GBUFCE Assignments (end) ----------
+
+
+
+---------- Resource Summary (begin) ----------
+Inputs: 22 / 1703 (1.29%)
+Outputs: 68 / 2267 (3.00%)
+Global Clocks (GBUF): 4 / 32 (12.50%)
+Regional Clocks (RBUF): 0 / 32 (0.00%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 0 / 8 (0.00%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 5945 / 60800 (9.78%)
+	XLRs needed for Logic: 4510 / 60800 (7.42%)
+	XLRs needed for Logic + FF: 515 / 60800 (0.85%)
+	XLRs needed for Adder: 357 / 60800 (0.59%)
+	XLRs needed for Adder + FF: 76 / 60800 (0.12%)
+	XLRs needed for FF: 230 / 60800 (0.38%)
+	XLRs needed for SRL8: 4 / 14720 (0.03%)
+	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 253 / 60800 (0.42%)
+Memory Blocks: 160 / 256 (62.50%)
+DSP Blocks: 0 / 160 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+
+---------- GBUFCE Assignments (begin) ----------
+
+
++--------------+----------+----------+
+|  Clock Net   | GBUFCE_X | GBUFCE_Y |
++--------------+----------+----------+
+|    clk27m    |    1     |   159    |
+|   clk_adc    |    1     |   163    |
+|  clk_pixel   |   218    |   159    |
+| clk_pixel_5x |   218    |   163    |
++--------------+----------+----------+
+
+
+----------- GBUFCE Assignments (end) ----------
+
+

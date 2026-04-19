@@ -1,0 +1,502 @@
+{
+    "debug_cores": [
+        {
+            "name": "la0",
+            "type": "la",
+            "uuid": "e3a7f63365d841d4b63259b540719291",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": false,
+            "data_depth": 4096,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "u_vga_pic/wr_rgb_en",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_vga_pic/wr_data",
+                    "width": 32,
+                    "probe_type": 1
+                },
+                {
+                    "name": "uart_rx_en",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "uart_rx_data",
+                    "width": 8,
+                    "probe_type": 1
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "command": "add_ports",
+            "id": 1,
+            "args": {
+                "netlist": "LED_8bit_Test",
+                "ports": [
+                    {
+                        "name": "jtag_inst2_CAPTURE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_DRCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_RESET",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_RUNTEST",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_SEL",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_SHIFT",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_TCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_TDI",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_TMS",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_UPDATE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_TDO",
+                        "dir": "out",
+                        "width": 1
+                    }
+                ]
+            }
+        },
+        {
+            "command": "instantiate",
+            "netlist": "edb_top",
+            "id": 2,
+            "instance": "edb_top_inst"
+        },
+        {
+            "command": "connect",
+            "id": 3,
+            "args": {
+                "instance": "edb_top_inst",
+                "ports": [
+                    {
+                        "name": "bscan_CAPTURE",
+                        "net": "jtag_inst2_CAPTURE"
+                    },
+                    {
+                        "name": "bscan_DRCK",
+                        "net": "jtag_inst2_DRCK"
+                    },
+                    {
+                        "name": "bscan_RESET",
+                        "net": "jtag_inst2_RESET"
+                    },
+                    {
+                        "name": "bscan_RUNTEST",
+                        "net": "jtag_inst2_RUNTEST"
+                    },
+                    {
+                        "name": "bscan_SEL",
+                        "net": "jtag_inst2_SEL"
+                    },
+                    {
+                        "name": "bscan_SHIFT",
+                        "net": "jtag_inst2_SHIFT"
+                    },
+                    {
+                        "name": "bscan_TCK",
+                        "net": "jtag_inst2_TCK"
+                    },
+                    {
+                        "name": "bscan_TDI",
+                        "net": "jtag_inst2_TDI"
+                    },
+                    {
+                        "name": "bscan_TMS",
+                        "net": "jtag_inst2_TMS"
+                    },
+                    {
+                        "name": "bscan_UPDATE",
+                        "net": "jtag_inst2_UPDATE"
+                    },
+                    {
+                        "name": "bscan_TDO",
+                        "net": "jtag_inst2_TDO"
+                    },
+                    {
+                        "name": "la0_clk",
+                        "net": "clk_ref",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0",
+                        "net": "wr_rgb_en",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[0]",
+                        "net": "wr_data[0]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[1]",
+                        "net": "wr_data[1]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[2]",
+                        "net": "wr_data[2]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[3]",
+                        "net": "wr_data[3]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[4]",
+                        "net": "wr_data[4]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[5]",
+                        "net": "wr_data[5]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[6]",
+                        "net": "wr_data[6]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[7]",
+                        "net": "wr_data[7]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[8]",
+                        "net": "wr_data[8]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[9]",
+                        "net": "wr_data[9]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[10]",
+                        "net": "wr_data[10]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[11]",
+                        "net": "wr_data[11]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[12]",
+                        "net": "wr_data[12]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[13]",
+                        "net": "wr_data[13]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[14]",
+                        "net": "wr_data[14]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[15]",
+                        "net": "wr_data[15]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[16]",
+                        "net": "wr_data[16]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[17]",
+                        "net": "wr_data[17]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[18]",
+                        "net": "wr_data[18]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[19]",
+                        "net": "wr_data[19]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[20]",
+                        "net": "wr_data[20]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[21]",
+                        "net": "wr_data[21]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[22]",
+                        "net": "wr_data[22]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[23]",
+                        "net": "wr_data[23]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[24]",
+                        "net": "wr_data[24]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[25]",
+                        "net": "wr_data[25]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[26]",
+                        "net": "wr_data[26]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[27]",
+                        "net": "wr_data[27]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[28]",
+                        "net": "wr_data[28]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[29]",
+                        "net": "wr_data[29]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[30]",
+                        "net": "wr_data[30]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[31]",
+                        "net": "wr_data[31]",
+                        "path": [
+                            "u_vga_pic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2",
+                        "net": "uart_rx_en",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe3[0]",
+                        "net": "uart_rx_data[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe3[1]",
+                        "net": "uart_rx_data[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe3[2]",
+                        "net": "uart_rx_data[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe3[3]",
+                        "net": "uart_rx_data[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe3[4]",
+                        "net": "uart_rx_data[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe3[5]",
+                        "net": "uart_rx_data[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe3[6]",
+                        "net": "uart_rx_data[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe3[7]",
+                        "net": "uart_rx_data[7]",
+                        "path": []
+                    }
+                ]
+            }
+        }
+    ],
+    "vdbs": [
+        {
+            "file": "debug_top.post.vdb",
+            "instance": "edb_top_inst"
+        }
+    ],
+    "session": {
+        "wizard": {
+            "data_depth": 4096,
+            "capture_control": false,
+            "selected_nets": [
+                {
+                    "name": "wr_rgb_en",
+                    "width": 1,
+                    "clk_domain": "clk_ref",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_vga_pic"
+                    ]
+                },
+                {
+                    "name": "wr_data",
+                    "width": 32,
+                    "clk_domain": "clk_ref",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_vga_pic"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "uart_rx_en",
+                    "width": 1,
+                    "clk_domain": "clk_ref",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "uart_rx_data",
+                    "width": 8,
+                    "clk_domain": "clk_ref",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                }
+            ],
+            "top_module": "LED_8bit_Test",
+            "db_checksum": "ba5fce12098a2c03e7bae2e9a172d1842464edfca8e284870b3519e987537970",
+            "src": "elaborate",
+            "jtag_user": "USER2",
+            "input_pipeline": 1
+        }
+    }
+}

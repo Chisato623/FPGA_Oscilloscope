@@ -1,0 +1,20 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Jan 18, 2025 16:20:04
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        SRLs	        ADDs	        LUTs	    COMB4s	      RAMs	 DSP/MULTs
+edb_top:edb_top                                             	     734(0)	      16(0)	     176(0)	    1046(0)	     0(0)	    17(0)	     0(0)	
+ +la0:edb_la_top(NUM_PROBES=2,DATA_DEPTH=8192,INPUT_PIPE_STAGES=1,UUID=128'b01010001011011001100010110101000010100001010010001000111111010111010011101100111100100100011100110001100011100010000010111111101,PROBE0_WIDTH=8,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)	   648(366)	      16(0)	    176(45)	  1027(627)	     0(0)	    17(0)	     0(0)	
+  +axi_crc_i:edb_adbg_crc32                                 	     32(32)	       0(0)	       0(0)	     56(56)	     0(0)	     0(0)	     0(0)	
+  +GEN_PROBE[0].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b01000,PIPE=1)	     19(19)	       0(0)	       0(0)	     25(25)	     0(0)	     0(0)	     0(0)	
+  +GEN_PROBE[1].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b01000,PIPE=1)	     19(19)	       0(0)	       0(0)	     26(26)	     0(0)	     0(0)	     0(0)	
+  +trigger_tu:trigger_unit(WIDTH=32'b010,PIPE=1)            	       1(1)	       0(0)	       0(0)	       1(1)	     0(0)	     0(0)	     0(0)	
+  +trigger_skipper_n:trigger_skipper                        	     65(65)	       0(0)	     63(63)	     99(99)	     0(0)	     0(0)	     0(0)	
+  +la_biu_inst:la_biu(CAPTURE_WIDTH=32'b010000,DATA_DEPTH=8192)	    146(50)	      16(0)	      68(0)	    193(86)	     0(0)	    17(0)	     0(0)	
+   +fifo_with_read_inst:fifo_with_read(DATA_WIDTH=32'b010001,ADDR_WIDTH=13)	     96(70)	     16(16)	     68(68)	    107(80)	     0(0)	    17(0)	     0(0)	
+    +transcode_write_addr:fifo_address_trancode_unit(TOTAL_ADDR_WIDTH=13,CELL_ADDR_WIDTH=14)	     13(13)	       0(0)	       0(0)	     14(14)	     0(0)	     0(0)	     0(0)	
+    +transcode_read_addr:fifo_address_trancode_unit(TOTAL_ADDR_WIDTH=13,CELL_ADDR_WIDTH=14)	     13(13)	       0(0)	       0(0)	     13(13)	     0(0)	     0(0)	     0(0)	
+    +simple_dual_port_ram_inst:edb_simple_dual_port_ram(DATA_WIDTH=32'b010001,ADDR_WIDTH=13,RAM_INIT_FILE="")	       0(0)	       0(0)	       0(0)	       0(0)	     0(0)	   17(17)	     0(0)	
+ +debug_hub_inst:debug_hub                                  	     86(86)	       0(0)	       0(0)	     19(19)	     0(0)	     0(0)	     0(0)	

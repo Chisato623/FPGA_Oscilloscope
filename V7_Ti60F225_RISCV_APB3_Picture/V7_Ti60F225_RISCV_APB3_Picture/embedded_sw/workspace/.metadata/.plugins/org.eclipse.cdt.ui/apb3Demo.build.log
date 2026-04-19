@@ -1,0 +1,16 @@
+16:45:38 **** Incremental Build of configuration Default for project apb3Demo ****
+make all 
+CC ../common/start.S
+LD apb3Demo
+Memory region         Used Size  Region Size  %age Used
+             ram:       38976 B        64 KB     59.47%
+riscv-none-embed-objdump: Warning: source file F:\usefullMaterial\new\Ti60\V7_Ti60F225_RISCV_APB3_Picture\embedded_sw\soc_test\software\standalone\apb3Demo/../common/start.S is more recent than object file
+riscv-none-embed-objdump: Warning: source file F:\usefullMaterial\new\Ti60\V7_Ti60F225_RISCV_APB3_Picture\embedded_sw\soc_test\software\standalone\apb3Demo/../../../bsp/efinix/EfxSapphireSoc/app/semihosting.h is more recent than object file
+riscv-none-embed-objdump: Warning: source file F:\usefullMaterial\new\Ti60\V7_Ti60F225_RISCV_APB3_Picture\embedded_sw\soc_test\software\standalone\apb3Demo/../../../bsp/efinix/EfxSapphireSoc/include/bsp.h is more recent than object file
+riscv-none-embed-objdump: Warning: source file F:\usefullMaterial\new\Ti60\V7_Ti60F225_RISCV_APB3_Picture\embedded_sw\soc_test\software\standalone\apb3Demo/../../../bsp/efinix/EfxSapphireSoc/app/print_full.h is more recent than object file
+riscv-none-embed-objdump: Warning: source file F:\usefullMaterial\new\Ti60\V7_Ti60F225_RISCV_APB3_Picture\embedded_sw\soc_test\software\standalone\apb3Demo/../../../bsp/efinix/EfxSapphireSoc/app/print.h is more recent than object file
+riscv-none-embed-objdump: Warning: source file F:\usefullMaterial\new\Ti60\V7_Ti60F225_RISCV_APB3_Picture\embedded_sw\soc_test\software\standalone\apb3Demo/../driver/io.h is more recent than object file
+riscv-none-embed-objdump: Warning: source file F:\usefullMaterial\new\Ti60\V7_Ti60F225_RISCV_APB3_Picture\embedded_sw\soc_test\software\standalone\apb3Demo/../driver/apb3_cl.h is more recent than object file
+
+16:45:39 Build Finished. 0 errors, 0 warnings. (took 609ms)
+

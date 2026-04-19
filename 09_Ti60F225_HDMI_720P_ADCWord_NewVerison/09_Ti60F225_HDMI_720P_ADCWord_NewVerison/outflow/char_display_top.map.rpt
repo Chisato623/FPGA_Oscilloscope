@@ -1,0 +1,226 @@
+Efinity Synthesis report for project char_display_top
+Version: 2024.2.294
+Generated at: Jan 09, 2025 12:14:17
+Copyright (C) 2013 - 2024  All rights reserved.
+
+Top-level Entity Name : char_display_top
+
+family : Titanium
+device : Ti60F225
+project : char_display_top
+root : char_display_top
+I,include : D:/FPGA_learning/RISC_V_Project/Compare_Project/Successful_RISC_V/07_Ti60F225_HDMI_720P_ADC_Display
+I,include : D:/FPGA_learning/RISC_V_Project/Compare_Project/Successful_RISC_V/07_Ti60F225_HDMI_720P_ADC_Display/ip/bram_w8d2048
+I,include : D:/FPGA_learning/RISC_V_Project/Compare_Project/Successful_RISC_V/07_Ti60F225_HDMI_720P_ADC_Display/ip/afifo_w8d2048
+output-dir : D:/FPGA_learning/RISC_V_Project/Compare_Project/Successful_RISC_V/07_Ti60F225_HDMI_720P_ADC_Display/outflow
+work-dir : D:/FPGA_learning/RISC_V_Project/Compare_Project/Successful_RISC_V/07_Ti60F225_HDMI_720P_ADC_Display/work_dbg
+write-efx-verilog : D:/FPGA_learning/RISC_V_Project/Compare_Project/Successful_RISC_V/07_Ti60F225_HDMI_720P_ADC_Display/work_dbg/Ti60_HDMI_CharDsiplay720P.dbg.map.v
+binary-db : D:/FPGA_learning/RISC_V_Project/Compare_Project/Successful_RISC_V/07_Ti60F225_HDMI_720P_ADC_Display/work_dbg/Ti60_HDMI_CharDsiplay720P.dbg.vdb
+insert-ios : 0
+insert-gclk : 0
+max-carry-cascade : 320
+max-dsp-cascade : 16
+max_mult : -1
+max_ram : -1
+mode : speed
+num_srl : -1
+
+File List:
+
+D:/FPGA_learning/RISC_V_Project/Compare_Project/Successful_RISC_V/07_Ti60F225_HDMI_720P_ADC_Display/outflow/Ti60_HDMI_CharDsiplay720P.elab.vdb (vdb-file) 
+D:/FPGA_learning/RISC_V_Project/Compare_Project/Successful_RISC_V/07_Ti60F225_HDMI_720P_ADC_Display/work_dbg/debug_top.post.vdb (vdb-file) 
+
+### ### Report Section Start ### ###
+
+"MEM|SYN-0677" : ... Memory 'ram' is not initialized, assuming empty initial contents. (D:/FPGA_learning/RISC_V_Project/Compare_Project/Successful_RISC_V/07_Ti60F225_HDMI_720P_ADC_Display\ip/afifo_w8d2048\afifo_w8d2048.v:659)
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 77
+Total number of FFs with enable signals: 1329
+CE signal <ceg_net2>, number of controlling flip flops: 12
+CE signal <ceg_net4>, number of controlling flip flops: 1
+CE signal <ceg_net6>, number of controlling flip flops: 1
+CE signal <ceg_net8>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/GEN_PROBE[5].this_probe_p1[0]>, number of controlling flip flops: 12
+CE signal <edb_top_inst/ceg_net2>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n1006>, number of controlling flip flops: 21
+CE signal <edb_top_inst/la0/n1090>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n1607>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n1740>, number of controlling flip flops: 22
+CE signal <edb_top_inst/la0/addr_ct_en>, number of controlling flip flops: 28
+CE signal <edb_top_inst/la0/op_reg_en>, number of controlling flip flops: 4
+CE signal <edb_top_inst/ceg_net5>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la0/word_ct_en>, number of controlling flip flops: 16
+CE signal <edb_top_inst/ceg_net8>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n2649>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n2664>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n2862>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n3546>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n3561>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n3759>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n4387>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n5220>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n6137>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n6152>, number of controlling flip flops: 12
+CE signal <edb_top_inst/la0/n6350>, number of controlling flip flops: 12
+CE signal <edb_top_inst/la0/n6982>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n7892>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n7907>, number of controlling flip flops: 11
+CE signal <edb_top_inst/la0/n8105>, number of controlling flip flops: 11
+CE signal <edb_top_inst/la0/n8792>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n8807>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n9005>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n9633>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/regsel_ld_en>, number of controlling flip flops: 13
+CE signal <edb_top_inst/ceg_net11>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/tu_trigger>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/trigger_skipper_n/n468>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/n377>, number of controlling flip flops: 14
+CE signal <edb_top_inst/la0/la_biu_inst/n1326>, number of controlling flip flops: 53
+CE signal <edb_top_inst/ceg_net18>, number of controlling flip flops: 1
+CE signal <edb_top_inst/ceg_net48>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/is_last_data>, number of controlling flip flops: 13
+CE signal <edb_top_inst/la0/la_biu_inst/n1935>, number of controlling flip flops: 13
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_push>, number of controlling flip flops: 13
+CE signal <edb_top_inst/~ceg_net51>, number of controlling flip flops: 28
+CE signal <edb_top_inst/ceg_net26>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la1/n982>, number of controlling flip flops: 21
+CE signal <edb_top_inst/la1/n1066>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la1/n1583>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la1/n1716>, number of controlling flip flops: 22
+CE signal <edb_top_inst/la1/addr_ct_en>, number of controlling flip flops: 28
+CE signal <edb_top_inst/la1/op_reg_en>, number of controlling flip flops: 4
+CE signal <edb_top_inst/ceg_net29>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la1/word_ct_en>, number of controlling flip flops: 16
+CE signal <edb_top_inst/ceg_net32>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la1/n2569>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la1/n3486>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la1/n3501>, number of controlling flip flops: 12
+CE signal <edb_top_inst/la1/n3699>, number of controlling flip flops: 12
+CE signal <edb_top_inst/la1/n4387>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la1/n4402>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la1/n4600>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la1/regsel_ld_en>, number of controlling flip flops: 13
+CE signal <edb_top_inst/ceg_net35>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la1/tu_trigger>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la1/trigger_skipper_n/n468>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la1/la_biu_inst/n347>, number of controlling flip flops: 14
+CE signal <edb_top_inst/la1/la_biu_inst/n1266>, number of controlling flip flops: 23
+CE signal <edb_top_inst/ceg_net42>, number of controlling flip flops: 1
+CE signal <edb_top_inst/ceg_net52>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la1/la_biu_inst/fifo_with_read_inst/is_last_data>, number of controlling flip flops: 13
+CE signal <edb_top_inst/la1/la_biu_inst/n1875>, number of controlling flip flops: 13
+CE signal <edb_top_inst/la1/la_biu_inst/fifo_push>, number of controlling flip flops: 13
+CE signal <edb_top_inst/~ceg_net55>, number of controlling flip flops: 28
+CE signal <edb_top_inst/debug_hub_inst/n266>, number of controlling flip flops: 4
+CE signal <edb_top_inst/debug_hub_inst/n95>, number of controlling flip flops: 82
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 23
+Total number of FFs with set/reset signals: 1542
+SR signal <adc_sync/r_locked>, number of controlling flip flops: 18
+SR signal <w_adc_rstn>, number of controlling flip flops: 16
+SR signal <w_pixel_rstn>, number of controlling flip flops: 13
+SR signal <w_adc_rst>, number of controlling flip flops: 56
+SR signal <sys_pll_RSTN>, number of controlling flip flops: 2
+SR signal <pixel_sync/r_locked>, number of controlling flip flops: 17
+SR signal <u_afifo_w8d2048/u_efx_fifo_top/rd_rst_int>, number of controlling flip flops: 48
+SR signal <u_afifo_w8d2048/u_efx_fifo_top/wr_rst_int>, number of controlling flip flops: 24
+SR signal <jtag_inst1_RESET>, number of controlling flip flops: 976
+SR signal <edb_top_inst/la0/n2580>, number of controlling flip flops: 2
+SR signal <edb_top_inst/la0/ts_resetn>, number of controlling flip flops: 65
+SR signal <edb_top_inst/la0/la_resetn>, number of controlling flip flops: 65
+SR signal <edb_top_inst/la0/la_biu_inst/n1928>, number of controlling flip flops: 1
+SR signal <edb_top_inst/la0/n14456>, number of controlling flip flops: 1
+SR signal <edb_top_inst/la0/la_biu_inst/fifo_rstn>, number of controlling flip flops: 27
+SR signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/n981>, number of controlling flip flops: 40
+SR signal <edb_top_inst/la1/n2556>, number of controlling flip flops: 2
+SR signal <edb_top_inst/la1/ts_resetn>, number of controlling flip flops: 65
+SR signal <edb_top_inst/la1/la_resetn>, number of controlling flip flops: 35
+SR signal <edb_top_inst/la1/la_biu_inst/n1868>, number of controlling flip flops: 1
+SR signal <edb_top_inst/la1/n7283>, number of controlling flip flops: 1
+SR signal <edb_top_inst/la1/la_biu_inst/fifo_rstn>, number of controlling flip flops: 27
+SR signal <edb_top_inst/la1/la_biu_inst/fifo_with_read_inst/n861>, number of controlling flip flops: 40
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Memory Trimming Report (begin) ### ### ### 
+Memory instance 'u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ram/ram__D$2' WE[1] tied off to 0.
+Memory instance 'u_afifo_w8d2048/u_efx_fifo_top/xefx_fifo_ram/ram__D$1' WE[1] tied off to 0.
+### ### Memory Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        SRLs        ADDs        LUTs    COMB4s      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----        ----      ----      ---- ---------
+char_display_top:char_display_top                               1856(29)       76(0)     440(11)     2496(9)      0(0)     78(0)      0(0)
+ +adc_sync:Reset                                                  19(19)        2(2)        0(0)        1(1)      0(0)      0(0)      0(0)
+ +pixel_sync:Reset                                                18(18)        2(2)        0(0)        1(1)      0(0)      0(0)      0(0)
+ +u_auto_trigger:auto_trigger                                     39(39)        0(0)      35(35)      35(35)      0(0)      0(0)      0(0)
+ +u_bram_read_test:bram_read_test                                 13(12)        0(0)      10(10)      17(16)      0(0)      2(0)      0(0)
+  +u_Falling_edge:Falling_edge                                      1(1)        0(0)        0(0)        1(1)      0(0)      0(0)      0(0)
+  +u_bram_w8d2048:bram_w8d2048                                      0(0)        0(0)        0(0)        0(0)      0(0)      2(0)      0(0)
+   +u_efx_bram:efx_bram_02bb2ee6e8d240c091326cc284f67afa_...        0(0)        0(0)        0(0)        0(0)      0(0)      2(0)      0(0)
+    +genblk1.sdpram_inst:efx_simple_dual_port_ram_02bb2ee...        0(0)        0(0)        0(0)        0(0)      0(0)      2(0)      0(0)
+     +brams:bram_wrapper_mwm_02bb2ee6e8d240c091326cc284f6...        0(0)        0(0)        0(0)        0(0)      0(0)      2(0)      0(0)
+      +scan_row.row[0].column[0].bram:bram_primitive_02bb...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+      +scan_row.row[0].column[1].bram:bram_primitive_02bb...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+ +u_afifo_w8d2048:afifo_w8d2048                                    76(0)        0(0)       36(0)       24(0)      0(0)      2(0)      0(0)
+  +u_efx_fifo_top:efx_fifo_top_cf5cdeb5e34d4b7b8ff89a67c2...       76(0)        0(0)       36(0)       24(0)      0(0)      2(0)      0(0)
+   +genblk2.genblk1.efx_resetsync_wr_rst:efx_resetsync_cf...        2(0)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+    +active_high.efx_resetsync_active_high:efx_asyncreg_c...        2(2)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+   +genblk2.genblk1.efx_resetsync_rd_rst:efx_resetsync_cf...        2(0)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+    +active_high.efx_resetsync_active_high:efx_asyncreg_c...        2(2)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+   +xefx_fifo_ram:efx_fifo_ram_cf5cdeb5e34d4b7b8ff89a67c2...        0(0)        0(0)        0(0)        0(0)      0(0)      2(2)      0(0)
+   +xefx_fifo_ctl:efx_fifo_ctl_cf5cdeb5e34d4b7b8ff89a67c2...      72(48)        0(0)      36(36)       24(1)      0(0)      0(0)      0(0)
+    +async_clk.wr2rd_bin2gray:efx_fifo_bin2gray_cf5cdeb5e...        0(0)        0(0)        0(0)      11(11)      0(0)      0(0)      0(0)
+    +async_clk.wr2rd_addr_sync:efx_asyncreg_cf5cdeb5e34d4...      24(24)        0(0)        0(0)        1(1)      0(0)      0(0)      0(0)
+    +async_clk.wr2rd_gray2bin:efx_fifo_gray2bin_cf5cdeb5e...        0(0)        0(0)        0(0)       11(1)      0(0)      0(0)      0(0)
+     +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_cf5cde...        0(0)        0(0)        0(0)       10(1)      0(0)      0(0)      0(0)
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_cf5cd...        0(0)        0(0)        0(0)        9(1)      0(0)      0(0)      0(0)
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_cf5c...        0(0)        0(0)        0(0)        8(1)      0(0)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_cf5...        0(0)        0(0)        0(0)        7(1)      0(0)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_cf...        0(0)        0(0)        0(0)        6(1)      0(0)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_c...        0(0)        0(0)        0(0)        5(1)      0(0)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        0(0)        4(1)      0(0)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        0(0)        3(1)      0(0)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        0(0)        2(1)      0(0)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        0(0)        1(1)      0(0)      0(0)      0(0)
+ +edb_top_inst:edb_top                                        1662(1662)      72(72)    348(348)  2409(2409)      0(0)    74(74)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+          Clock     Flip-Flops     Shift-Regs   Memory Ports    Multipliers
+          -----     ----------     ----------   ------------    -----------
+        clk_adc            531             53            110              0
+      clk_pixel            349             23             46              0
+ jtag_inst1_TCK            976              0              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Memory Mapping Report (begin) ### ### ###
+
+### ### Memory Mapping Report (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	31
+OUTPUT PORTS    : 	58
+
+EFX_ADD         : 	440
+EFX_LUT4        : 	2496
+   1-2  Inputs  : 	711
+   3    Inputs  : 	715
+   4    Inputs  : 	1070
+EFX_FF          : 	1856
+EFX_SRL8        : 	76
+EFX_RAM10       : 	78
+EFX_GBUFCE      : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 20s
+Elapsed synthesis time : 21s

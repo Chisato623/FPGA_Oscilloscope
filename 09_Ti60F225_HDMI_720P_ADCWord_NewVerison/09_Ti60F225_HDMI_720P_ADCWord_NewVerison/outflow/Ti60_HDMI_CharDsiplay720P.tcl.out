@@ -1,0 +1,71 @@
+DEBUG    : Initialising Efx::ConcurrencyControl with 6 threads [Debug]
+INFO     : --max_threads set to 6 
+INFO     : --max_threads set to 6 
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully Read in Verific binary Netlist dump file "F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.vdb".
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0400279 seconds.
+INFO     : 	VDB Netlist Checker took 0.046875 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 792.38 MB, end = 792.708 MB, delta = 0.328 MB
+INFO     : 	VDB Netlist Checker peak virtual memory usage = 795.264 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 796.144 MB, end = 796.4 MB, delta = 0.256 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 797.74 MB
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Creating interface clock pin clk_pixel_5x.
+INFO     : Found 0 constant generator nets.
+INFO     : Pass 0: Swept away 0 nets with no fanout.
+INFO     : logical_block #21(sys_pll_LOCKED) has no fanout.
+INFO     : Removing input.
+INFO     : Pass 0: Swept away 1 blocks with no fanout.
+INFO     : Pass 1: Swept away 0 nets with no fanout.
+INFO     : Pass 1: Swept away 0 blocks with no fanout.
+INFO     : Swept away 0 nets and 1 blocks in total.
+INFO     : Removed 0 LUT buffers
+INFO     : Sweept away 1 nodes
+INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.vdb".
+INFO     : Netlist pre-processing took 1.80462 seconds.
+INFO     : 	Netlist pre-processing took 0.25 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing virtual memory usage: begin = 791.932 MB, end = 792.708 MB, delta = 0.776 MB
+INFO     : 	Netlist pre-processing peak virtual memory usage = 795.264 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 795.76 MB, end = 796.4 MB, delta = 0.64 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 797.74 MB
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Load Global Network took 0.662834 seconds.
+INFO     : 	Load Global Network took 0.3125 seconds (approximately) in total CPU time.
+INFO     : Load Global Network virtual memory usage: begin = 792.708 MB, end = 792.672 MB, delta = -0.036 MB
+INFO     : 	Load Global Network peak virtual memory usage = 795.264 MB
+INFO     : Load Global Network resident set memory usage: begin = 796.4 MB, end = 796.384 MB, delta = -0.016 MB
+INFO     : 	Load Global Network peak resident set memory usage = 797.74 MB
+INFO     : Reading C:/Efinity/2024.2/arch/.\rr_pb_hier_mapping.xml
+INFO     : Read proto netlist file F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/work_pnr\Ti60_HDMI_CharDsiplay720P.net_proto
+INFO     : Read proto netlist for file "F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/work_pnr\Ti60_HDMI_CharDsiplay720P.net_proto" took 0.002 seconds
+INFO     : Setup net and block data structure took 0.053 seconds
+INFO     : Reading core interface constraints file "F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Run checks after load placement.
+INFO     : Reading core interface constraints file "F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+INFO     : Successfully read core interface constraints file "F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/outflow/Ti60_HDMI_CharDsiplay720P.interface.csv"
+WARNING  : No ports matched 'pll_inst2_CLKOUT0'
+WARNING  : [SDC F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:18] No valid pin(s) found for clock
+WARNING  : [SDC F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:18] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : No ports matched 'clk_ref'
+WARNING  : [SDC F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:20] No valid pin(s) found for clock
+WARNING  : [SDC F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:20] Unable to run 'create_clock' constraint due to warnings found
+INFO     : SDC file 'F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc' parsed successfully.
+INFO     : 3 clocks (including virtual clocks), 0 inputs and 48 outputs were constrained.
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Router Setup
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing trace digest: 2069103459291477357
+INFO     : Successfully reloaded trace from trace file
+WARNING  : No ports matched 'pll_inst2_CLKOUT0'
+WARNING  : [SDC F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:18] No valid pin(s) found for clock
+WARNING  : [SDC F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:18] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : No ports matched 'clk_ref'
+WARNING  : [SDC F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:20] No valid pin(s) found for clock
+WARNING  : [SDC F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc:20] Unable to run 'create_clock' constraint due to warnings found
+INFO     : SDC file 'F:/09_Ti60F225_HDMI_720P_ADCWord_NewVerison/VIP_System.sdc' parsed successfully.
+INFO     : 3 clocks (including virtual clocks), 0 inputs and 48 outputs were constrained.

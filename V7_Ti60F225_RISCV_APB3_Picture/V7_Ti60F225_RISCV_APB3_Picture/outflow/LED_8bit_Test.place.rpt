@@ -1,0 +1,206 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2024.2.294.1.19 
+Date: Fri Jun 21 16:44:08 2024
+
+Copyright (C) 2013 - 2024 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: LED_8bit_Test
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 10 / 1703 (0.59%)
+Outputs: 66 / 2267 (2.91%)
+Global Clocks (GBUF): 4 / 32 (12.50%)
+Regional Clocks (RBUF): 0 / 32 (0.00%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 0 / 8 (0.00%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 6102 / 60800 (10.04%)
+	XLRs needed for Logic: 2625 / 60800 (4.32%)
+	XLRs needed for Logic + FF: 1359 / 60800 (2.24%)
+	XLRs needed for Adder: 353 / 60800 (0.58%)
+	XLRs needed for Adder + FF: 353 / 60800 (0.58%)
+	XLRs needed for FF: 1311 / 60800 (2.16%)
+	XLRs needed for SRL8: 3 / 14720 (0.02%)
+	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 98 / 60800 (0.16%)
+Memory Blocks: 124 / 256 (48.44%)
+DSP Blocks: 4 / 160 (2.50%)
+---------- Resource Summary (end) ----------
+
+
+---------- DSP Packer Summary (begin) ----------
+
+	DSP48 blocks required to legally pack design: 4
+	DSP48 blocks recoverable by optimizing:
+		-> DSP24/12 control signals & parameters: 0
+	Best case scenario DSP count after optimizing: 4
+
+---------- DSP Packer Summary (end) ----------
+
+
+---------- DSP48 Block Information (begin) ----------
+
++----------------------------------------------------------------+--------+--------+---------+-------+-------+-------+-------------+
+|                              NAME                              |  MODE  | SIGNED | SHIFTER | M_SEL | N_SEL | W_SEL | CASCOUT_SEL |
++----------------------------------------------------------------+--------+--------+---------+-------+-------+-------+-------------+
+| u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/mult_2010 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/mult_2011 | NORMAL |  true  |  false  |   P   |   C   |   P   |      P      |
+| u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/mult_2012 | NORMAL |  true  |  false  |   P   |   C   |   P   |      P      |
+| u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/mult_2013 | NORMAL |  true  |  false  |   P   |   C   |   P   |      P      |
++----------------------------------------------------------------+--------+--------+---------+-------+-------+-------+-------------+
+
+----------- DSP48 Block Information (end) ----------
+
+
+---------- Simple Dual Port RAM Information (begin) ----------
+
++---------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                                                        NAME                                                         | MODE | READ_WIDTH | WRITE_WIDTH |  WRITE_MODE  | OUTPUT_REG |
++---------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                  u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/RegFilePlugin_regFile_2__D$1                  | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|            u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/ways_0_tags__D$1             | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                   u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/RegFilePlugin_regFile__D$1                   | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                  u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/RegFilePlugin_regFile_2__D$2                  | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|            u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/ways_0_tags__D$2             | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|             u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/banks_0__D$b12              | SDP  |     8      |      8      |  READ_FIRST  |    true    |
+|              u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/banks_0__D$2               | SDP  |     8      |      8      |  READ_FIRST  |    true    |
+|              u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/banks_0__D$c1              | SDP  |     8      |      8      |  READ_FIRST  |    true    |
+|                u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/ways_0_data_symbol1                 | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|              u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/banks_0__D$12              | SDP  |     8      |      8      |  READ_FIRST  |    true    |
+|                  u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/ways_0_tags__D$1                  | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/ways_0_data_symbol2                 | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/ways_0_data_symbol3                 | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/ways_0_data_symbol0                 | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                  u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/ways_0_tags__D$2                  | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                   u_soc_test/u_EfxSapphireSoc/system_cores_0_logic_cpu/RegFilePlugin_regFile__D$2                   | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                           u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$02                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0b12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0b12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0b12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0b12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                           u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$02                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$3b12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                           u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$02                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$3b12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$3b12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                           u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$02                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$3b12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$012                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                           u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$32                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0c12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0d12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0e12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0f12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0g1                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$312                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$3c12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$3d12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$3e12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$3f12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$3g1                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$012                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                           u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$32                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0c12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0d12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0e12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0f12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0g1                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$312                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$3c12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$3d12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$3e12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$3f12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$3g1                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$012                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                           u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$32                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0c12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0d12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0e12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0f12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0g1                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$312                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$3c12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$3d12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$3e12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$3f12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$3g1                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$012                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                           u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$32                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0c12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0d12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0e12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0f12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0g1                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$312                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$3c12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$3d12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$3e12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$3f12                          | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|                          u_soc_test/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$3g1                           | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|    u_soc_test/u_EfxSapphireSoc/system_uart_0_io_logic/bridge_write_streamUnbuffered_queueWithOccupancy/logic_ram    | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|         u_soc_test/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1_io_read_queueWithOccupancy/logic_ram          | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+| u_soc_test/u_EfxSapphireSoc/system_spi_0_io_logic/mapping_cmdLogic_streamUnbuffered_queueWithAvailability/logic_ram | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|             u_soc_test/u_EfxSapphireSoc/system_spi_0_io_logic/ctrl_io_rsp_queueWithOccupancy/logic_ram              | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[4].row[7].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[4].row[6].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[4].row[5].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[4].row[4].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[4].row[3].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[0].row[1].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[2].row[0].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[0].row[3].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[0].row[4].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[1].row[5].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[1].row[0].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[0].row[6].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[0].row[7].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[0].row[5].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[1].row[2].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[1].row[1].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[0].row[2].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[0].row[0].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[1].row[3].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[1].row[4].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[1].row[6].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[1].row[7].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[2].row[5].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[2].row[1].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[2].row[2].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[2].row[3].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[2].row[4].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[2].row[6].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[3].row[2].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[3].row[1].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[3].row[0].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[2].row[7].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[3].row[3].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[4].row[0].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[3].row[7].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[3].row[4].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[3].row[6].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[3].row[5].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[4].row[1].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|     u_vga_pic/u_bram_test/u_efx_bram/genblk1.sdpram_inst/brams/scan_column.column[4].row[2].bram/genblk1.ram10k     | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
++---------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+
+----------- Simple Dual Port RAM Information (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|    jtag_inst2_DRCK     |    Input     |
+|     jtag_inst2_TMS     |    Input     |
+|    jtag_inst2_RESET    |    Input     |
+|   jtag_inst2_RUNTEST   |    Input     |
+|   jtag_inst2_UPDATE    |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
